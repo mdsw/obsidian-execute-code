@@ -16,7 +16,7 @@ The result is shown only after the execution is finished. It is not possible to 
 
 <hr></div>
 
-The following [languages are supported](#supported-programming-languages-): C, C++, CSharp, Dart, F#, Golang, Groovy, Haskell, Java, JavaScript, Kotlin, Lean, Lua, Maxima, OCaml, Octave, Prolog, Python, R, Racket, Ruby, Rust, Scala, Shell (including Batch & Powershell), SQL, TypeScript, Wolfram Mathematica, Zig.
+The following [languages are supported](#supported-programming-languages-): C, C++, CSharp, Dart, F#, Golang, Groovy, Haskell, Java, JavaScript, Julia, Kotlin, Lean, Lua, Maxima, OCaml, Octave, Prolog, Python, R, Racket, Ruby, Rust, Scala, Shell (including Batch & Powershell), SQL, TypeScript, Wolfram Mathematica, Zig.
 
 If you are new to MarkDown or Obsidian.md, you can go to the [Quickstart Guide](#quickstart-guide-) or take a look in to [some blogs and videos that feature this plugin](#featured-in)
 
