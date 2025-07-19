@@ -393,7 +393,7 @@ export const DEFAULT_SETTINGS: ExecutorSettings = {
 	phpFileExtension: "php",
 	phpInject: "",
 	juliaPath: "julia",
-	juliaArgs: "-E",
+	juliaArgs: "",
 	juliaFileExtension: "jl",
 	juliaInject: "",
 	jsInteractive: true,
