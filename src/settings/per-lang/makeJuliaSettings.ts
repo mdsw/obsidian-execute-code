@@ -22,5 +22,13 @@ export default (tab: SettingsTab, containerEl: HTMLElement) => {
                 console.log('Julia args set to: ' + value);
                 await tab.plugin.saveSettings();
             }));
+    new Setting(containerEl)
+        .setName("Run Julia blocks in Notebook Mode")
+        .addToggle((toggle) => toggle
+            .setValue(tab.plugin.settings.juliaInteractive)
+            .onChange(async (value) => {
+                tab.plugin.settings.juliaInteractive = value;
+                await tab.plugin.saveSettings();
+            }));
     tab.makeInjectSetting(containerEl, "julia");
 }

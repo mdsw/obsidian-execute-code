@@ -431,5 +431,5 @@ export const DEFAULT_SETTINGS: ExecutorSettings = {
 	zigInteractive: false,
 	ocamlInteractive: false,
 	phpInteractive: false,
-	juliaInteractive: false,
+	juliaInteractive: true,
 }
