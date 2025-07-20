@@ -3,6 +3,14 @@ import { SettingsTab } from "../SettingsTab";
 
 export default (tab: SettingsTab, containerEl: HTMLElement) => {
     containerEl.createEl('h3', { text: 'Julia Settings' });
+     new Setting(containerEl)
+        .setName('Embed Julia Plots')
+        .addToggle(toggle => toggle
+            .setValue(tab.plugin.settings.juliaEmbedPlots)
+            .onChange(async (value) => {
+                tab.plugin.settings.juliaEmbedPlots = value;
+                await tab.plugin.saveSettings();
+            }));
     new Setting(containerEl)
         .setName('Julia path')
         .addText(text => text

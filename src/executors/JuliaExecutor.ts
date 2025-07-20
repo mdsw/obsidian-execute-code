@@ -10,7 +10,7 @@ export default class JuliaExecutor extends ReplExecutor {
 	constructor(settings: ExecutorSettings, file: string) {
 		const args = settings.juliaArgs ? settings.juliaArgs.split(" ") : [];
 
-		args.unshift(`-i`);
+		//args.unshift(`--interactive`);
 
 		super(settings, settings.juliaPath, args, file, "julia");
 	}

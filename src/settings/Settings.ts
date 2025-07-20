@@ -145,6 +145,7 @@ export interface ExecutorSettings {
 	juliaPath: string;
 	juliaArgs: string;
 	juliaFileExtension: string;
+	juliaEmbedPlots: boolean;
 	juliaInject: string;
 	scalaPath: string;
 	scalaArgs: string;
@@ -394,6 +395,7 @@ export const DEFAULT_SETTINGS: ExecutorSettings = {
 	phpInject: "",
 	juliaPath: "julia",
 	juliaArgs: "",
+	juliaEmbedPlots: true,
 	juliaFileExtension: "jl",
 	juliaInject: "",
 	jsInteractive: true,
