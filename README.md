@@ -151,10 +151,10 @@ using Plots
 x = range(0, 10, length=100); y = sin.(x); plot(x, y)
 display(current())
 ```
-- Note: the `ans` output from the last expression is always printed; this is a limitation of interacting with Julia over `stdin`. You can put expressions on the same line separated by semicolons (though the last expression's result will be printed unless you make it `nothing`), and you can also enclose the statements in a `let ... end` block (but note this creates a local scope):
+- Note: the `ans` output from the last expression is always printed; this is a limitation of interacting with Julia over `stdin`. You can put expressions on the same line separated by semicolons (though the last expression's result will be printed unless you make it `nothing`), and you can also enclose the statements in a `begin ... end` block:
 ```julia
 using Plots
-let
+begin
   x = range(0, 10, length=100)
   y = sin.(x)
   plot(x, y)
