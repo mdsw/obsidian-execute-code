@@ -647,8 +647,8 @@ The following magic commands are supported:
 
 - `@vault_path`: Inserts the vault path as string (e.g. "/User/path/to/vault")
 - `@vault_url`: Inserts the vault url as string. (e.g. "app://local/path/to/vault")
-- `@note_path`: Inserts the vault path as string (e.g. "/User/path/to/vault/Note.md")
-- `@note_url`: Inserts the vault url as string. (e.g. "app://local/path/to/vault/Note.md")
+- `@note_path`: Inserts the note path as string (e.g. "/User/path/to/vault/Note.md")
+- `@note_url`: Inserts the note url as string. (e.g. "app://local/path/to/vault/Note.md")
 - `@title`: Inserts the note title as string.
 - `@show(ImagePath)`: Displays an image at the given path in the note.
 - `@show(ImagePath, Width, Height)`: Displays an image at the given path in the note.
@@ -896,3 +896,4 @@ The [open issues](https://github.com/twibiral/obsidian-execute-code/issues) are 
 </a>
 
 <sub>Made with [contrib.rocks](https://contrib.rocks).</sub>
+
